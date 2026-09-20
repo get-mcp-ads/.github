@@ -1,57 +1,73 @@
-# Get MCP Ads
+<div align="center">
 
-**Open-source MCP servers for the advertising stack.**
+# getmcpads
 
-Six [Model Context Protocol](https://modelcontextprotocol.io) servers that connect Claude,
-ChatGPT, Cursor or any MCP client to the platforms where advertising actually happens. Run
-them yourself under Apache 2.0, with your own credentials, on your own machine.
+### Your advertising work, inside your AI assistant.
 
-| Server | Tools | Install | Registry |
-|---|---|---|---|
-| [Meta Ads](https://github.com/getmcpads-com/meta-ads-mcp-server) | 34 read + 10 write | `@getmcpads/meta-ads-mcp-server` | `com.getmcpads/meta-ads` |
-| [Google Ads](https://github.com/getmcpads-com/google-ads-mcp-server) | 31 read + 7 write | `@getmcpads/google-ads-mcp-server` | `com.getmcpads/google-ads` |
-| [TikTok Ads](https://github.com/getmcpads-com/tiktok-ads-mcp-server) | 27 read + 5 write | `@getmcpads/tiktok-ads-mcp-server` | `com.getmcpads/tiktok-ads` |
-| [Pinterest Ads](https://github.com/getmcpads-com/pinterest-ads-mcp-server) | 26 read + 5 write | `@getmcpads/pinterest-ads-mcp-server` | `com.getmcpads/pinterest-ads` |
-| [Google Analytics 4](https://github.com/getmcpads-com/google-analytics-mcp-server) | 27 read | `@getmcpads/google-analytics-mcp-server` | `com.getmcpads/google-analytics` |
-| [Google Search Console](https://github.com/getmcpads-com/google-search-console-mcp-server) | 20 read | `@getmcpads/google-search-console-mcp-server` | `com.getmcpads/google-search-console` |
+Analyze performance. Review creatives. Export reports. Prepare campaigns.
+
+[Website](https://www.getmcpads.com) · [Watch the demo](https://www.getmcpads.com/home/film/get-mcp-ads-film-1080p.mp4) · [Documentation](https://www.getmcpads.com/docs) · [Explore the sources](https://www.getmcpads.com/tools)
+
+[![Watch getmcpads: performance analysis and creative comparison inside your AI assistant](https://www.getmcpads.com/home/film/poster-rich.webp)](https://www.getmcpads.com/home/film/get-mcp-ads-film-1080p.mp4)
+
+</div>
+
+## One hosted connection for your advertising work
+
+[getmcpads](https://www.getmcpads.com) connects **14 advertising, analytics and search sources** to compatible AI assistants through a hosted MCP connection. Media buyers, marketers and agencies can move from a performance question to a creative review, a spreadsheet report or a proposed campaign change in the same conversation.
+
+| What you need to do | How getmcpads helps |
+| --- | --- |
+| Understand performance | Investigate acquisition costs, compare campaigns and prepare reports across connected accounts. |
+| Review creatives | Explore a creative gallery and visual comparisons alongside performance data. |
+| Retrieve media | Retrieve supported ad images and videos for inspection and reuse. |
+| Keep Google Sheets current | Export supported reports to Google Sheets and schedule automatic refreshes. |
+| Prepare ads in bulk | Combine a brief with media from Google Drive, Dropbox or supported conversation attachments to prepare batches of ads. |
+| Make campaign changes | Preview supported budget, status, targeting and campaign changes before confirming them. |
+| Work across clients | Organize workspaces, select accessible accounts and prepare client reviews. |
+| Connect advertising to analytics | Bring GA4 and Search Console into acquisition and search performance analysis. |
+
+**The 14 sources:** Meta Ads, Google Ads, TikTok Ads, Pinterest Ads, X Ads, Snapchat Ads, Amazon Ads, Apple Ads, Microsoft Advertising, Reddit Ads, LinkedIn Ads, RTB House, Google Analytics 4 and Google Search Console.
+
+Capabilities vary by source, account permissions, plan and AI client. Bulk creation and scheduled exports are available on supported paid plans. LinkedIn campaign writes currently require test accounts while Standard access is pending. See the [source documentation](https://www.getmcpads.com/tools) and [current plans](https://www.getmcpads.com/pricing) for availability. The demo uses staged data.
+
+[**Explore getmcpads**](https://www.getmcpads.com) · [Read the guides](https://www.getmcpads.com/guides)
+
+## Seven standalone open-source MCP servers
+
+Prefer to run a server with your own credentials? Our Apache 2.0 packages expose **317 tools: 211 reads and 106 optional writes** across seven standalone catalogs.
+
+| Server | Read tools | Write tools | Release | Package |
+| --- | ---: | ---: | --- | --- |
+| [Meta Ads](https://github.com/getmcpads-com/meta-ads-mcp-server) | 41 | 23 | [2.0.0](https://github.com/getmcpads-com/meta-ads-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/meta-ads-mcp-server) |
+| [Google Ads](https://github.com/getmcpads-com/google-ads-mcp-server) | 35 | 10 | [2.0.0](https://github.com/getmcpads-com/google-ads-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/google-ads-mcp-server) |
+| [TikTok Ads](https://github.com/getmcpads-com/tiktok-ads-mcp-server) | 35 | 29 | [2.0.0](https://github.com/getmcpads-com/tiktok-ads-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/tiktok-ads-mcp-server) |
+| [Pinterest Ads](https://github.com/getmcpads-com/pinterest-ads-mcp-server) | 28 | 25 | [2.0.0](https://github.com/getmcpads-com/pinterest-ads-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/pinterest-ads-mcp-server) |
+| [X Ads](https://github.com/getmcpads-com/x-ads-mcp-server) | 25 | 19 | [1.0.0](https://github.com/getmcpads-com/x-ads-mcp-server/releases/tag/v1.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/x-ads-mcp-server) |
+| [Google Analytics 4](https://github.com/getmcpads-com/google-analytics-mcp-server) | 27 | 0 | [2.0.0](https://github.com/getmcpads-com/google-analytics-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/google-analytics-mcp-server) |
+| [Google Search Console](https://github.com/getmcpads-com/google-search-console-mcp-server) | 20 | 0 | [2.0.0](https://github.com/getmcpads-com/google-search-console-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/google-search-console-mcp-server) |
+
+Each repository includes setup instructions, tool schemas, a changelog and versioned releases. Requires **Node.js 22.12 or newer** and a compatible stdio MCP client.
 
 ```bash
-npx -y @getmcpads/meta-ads-mcp-server
+npx -y @getmcpads/meta-ads-mcp-server@2.0.0
 ```
 
-## What these have in common
+Advertising write tools are disabled by default. When enabled, they preview a change before a call with explicit confirmation applies it. GA4 and Search Console are read-only.
 
-**Writes preview before they apply.** On the four ad platforms, every write tool returns a
-description of the change and does nothing. Only a second call carrying `confirm: true`
-touches the live account. An assistant can pick the wrong account or the wrong order of
-magnitude on a budget; a mandatory preview makes that visible before it costs money.
+The hosted product adds its own interface and workflows, including creative galleries, scheduled exports, cloud media imports and shared workspaces. These are separate from the standalone packages listed above.
 
-**Analytics servers cannot write at all.** No flag adds it. A misread report is a wrong
-answer you can spot. A mistaken write to an analytics property corrupts the record you use
-to judge everything else, silently.
+## What is new
 
-**Catalogues live in the server, not in the model.** Metric and dimension catalogues with a
-compatibility matrix, so an assistant asks for `cost` and `conversions` by name instead of
-composing a query language against a schema of thousands of fields.
+- **X Ads 1.0.0:** a seventh standalone server with 25 read tools and 19 optional write tools.
+- **Six servers at 2.0.0:** expanded advertising tool catalogs, security fixes and updated dependencies, with Node.js 22.12 as the minimum supported version.
+- **Current documentation:** complete tool references, release notes, installation instructions and demo previews in each repository.
+- **Broader hosted workflows:** 14 sources, creative galleries, media retrieval, Google Sheets exports and supported bulk ad preparation from Drive or Dropbox.
 
-**Honest comparisons.** Each README compares the server to the platform's own official MCP
-server, including the rows where the official one wins. Where no official server exists, we
-say that instead of inventing a comparison.
+Open the release links above for the changes in each package. The 317-tool total applies to the seven standalone catalogs, not the hosted product.
 
-**Credentials stay on your machine.** No telemetry, no phone-home, one allowed host per
-server, and no HTTP redirect is ever followed once a token is attached. Tests fail the build
-if any of that stops being true.
+## Maintained by Emmanuel
 
-## Prefer not to run them yourself?
+Questions or feedback? Open an issue in the relevant repository or contact [hello@getmcpads.com](mailto:hello@getmcpads.com).
 
-[**getmcpads.com**](https://www.getmcpads.com) is the hosted version: the same six servers
-behind a single endpoint, with hosted OAuth and cross-platform reporting.
-
-Same tools, same safety model, no setup. The open-source servers stay independently useful
-either way.
-
-## Licence
-
-Apache 2.0, every repository. Meta, Google, TikTok and Pinterest are trademarks of their
-respective owners; these projects are independent clients of public APIs and are not
-affiliated with, endorsed by, or sponsored by any of them.
+The standalone repositories are licensed under Apache 2.0. Platform names and trademarks belong to their respective owners. These are independent clients of public APIs and are not affiliated with or endorsed by those platforms.
