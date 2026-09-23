@@ -39,18 +39,18 @@ Prefer to run a server with your own credentials? Our Apache 2.0 packages expose
 
 | Server | Read tools | Write tools | Release | Package |
 | --- | ---: | ---: | --- | --- |
-| [Meta Ads](https://github.com/getmcpads-com/meta-ads-mcp-server) | 41 | 23 | [2.0.0](https://github.com/getmcpads-com/meta-ads-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/meta-ads-mcp-server) |
-| [Google Ads](https://github.com/getmcpads-com/google-ads-mcp-server) | 35 | 10 | [2.0.0](https://github.com/getmcpads-com/google-ads-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/google-ads-mcp-server) |
-| [TikTok Ads](https://github.com/getmcpads-com/tiktok-ads-mcp-server) | 35 | 29 | [2.0.0](https://github.com/getmcpads-com/tiktok-ads-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/tiktok-ads-mcp-server) |
-| [Pinterest Ads](https://github.com/getmcpads-com/pinterest-ads-mcp-server) | 28 | 25 | [2.0.0](https://github.com/getmcpads-com/pinterest-ads-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/pinterest-ads-mcp-server) |
-| [X Ads](https://github.com/getmcpads-com/x-ads-mcp-server) | 25 | 19 | [1.0.0](https://github.com/getmcpads-com/x-ads-mcp-server/releases/tag/v1.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/x-ads-mcp-server) |
-| [Google Analytics 4](https://github.com/getmcpads-com/google-analytics-mcp-server) | 27 | 0 | [2.0.0](https://github.com/getmcpads-com/google-analytics-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/google-analytics-mcp-server) |
-| [Google Search Console](https://github.com/getmcpads-com/google-search-console-mcp-server) | 20 | 0 | [2.0.0](https://github.com/getmcpads-com/google-search-console-mcp-server/releases/tag/v2.0.0) | [npm](https://www.npmjs.com/package/@getmcpads/google-search-console-mcp-server) |
+| [Meta Ads](https://github.com/get-mcp-ads/meta-ads-mcp-server) | 41 | 23 | [2.0.1](https://github.com/get-mcp-ads/meta-ads-mcp-server/releases/tag/v2.0.1) | [npm](https://www.npmjs.com/package/@getmcpads/meta-ads-mcp-server) |
+| [Google Ads](https://github.com/get-mcp-ads/google-ads-mcp-server) | 35 | 10 | [2.0.1](https://github.com/get-mcp-ads/google-ads-mcp-server/releases/tag/v2.0.1) | [npm](https://www.npmjs.com/package/@getmcpads/google-ads-mcp-server) |
+| [TikTok Ads](https://github.com/get-mcp-ads/tiktok-ads-mcp-server) | 35 | 29 | [2.0.1](https://github.com/get-mcp-ads/tiktok-ads-mcp-server/releases/tag/v2.0.1) | [npm](https://www.npmjs.com/package/@getmcpads/tiktok-ads-mcp-server) |
+| [Pinterest Ads](https://github.com/get-mcp-ads/pinterest-ads-mcp-server) | 28 | 25 | [2.0.1](https://github.com/get-mcp-ads/pinterest-ads-mcp-server/releases/tag/v2.0.1) | [npm](https://www.npmjs.com/package/@getmcpads/pinterest-ads-mcp-server) |
+| [X Ads](https://github.com/get-mcp-ads/x-ads-mcp-server) | 25 | 19 | [1.0.1](https://github.com/get-mcp-ads/x-ads-mcp-server/releases/tag/v1.0.1) | [npm](https://www.npmjs.com/package/@getmcpads/x-ads-mcp-server) |
+| [Google Analytics 4](https://github.com/get-mcp-ads/google-analytics-mcp-server) | 27 | 0 | [2.0.1](https://github.com/get-mcp-ads/google-analytics-mcp-server/releases/tag/v2.0.1) | [npm](https://www.npmjs.com/package/@getmcpads/google-analytics-mcp-server) |
+| [Google Search Console](https://github.com/get-mcp-ads/google-search-console-mcp-server) | 20 | 0 | [2.0.1](https://github.com/get-mcp-ads/google-search-console-mcp-server/releases/tag/v2.0.1) | [npm](https://www.npmjs.com/package/@getmcpads/google-search-console-mcp-server) |
 
 Each repository includes setup instructions, tool schemas, a changelog and versioned releases. Requires **Node.js 22.12 or newer** and a compatible stdio MCP client.
 
 ```bash
-npx -y @getmcpads/meta-ads-mcp-server@2.0.0
+npx -y @getmcpads/meta-ads-mcp-server@2.0.1
 ```
 
 Advertising write tools are disabled by default. When enabled, they preview a change before a call with explicit confirmation applies it. GA4 and Search Console are read-only.
@@ -59,8 +59,8 @@ The hosted product adds its own interface and workflows, including creative gall
 
 ## What is new
 
-- **X Ads 1.0.0:** a seventh standalone server with 25 read tools and 19 optional write tools.
-- **Six servers at 2.0.0:** expanded advertising tool catalogs, security fixes and updated dependencies, with Node.js 22.12 as the minimum supported version.
+- **X Ads 1.0.1:** a seventh standalone server with 25 read tools and 19 optional write tools.
+- **Six servers at 2.0.1:** expanded advertising tool catalogs, security fixes and updated dependencies, with Node.js 22.12 as the minimum supported version.
 - **Current documentation:** complete tool references, release notes, installation instructions and demo previews in each repository.
 - **Broader hosted workflows:** 14 sources, creative galleries, media retrieval, Google Sheets exports and supported bulk ad preparation from Drive or Dropbox.
 
