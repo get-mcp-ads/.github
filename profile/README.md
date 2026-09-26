@@ -6,9 +6,9 @@
 
 Analyze performance. Review creatives. Export reports. Prepare campaigns.
 
-[Website](https://www.getmcpads.com) · [Watch the demo](https://www.getmcpads.com/home/film/get-mcp-ads-film-1080p.mp4) · [Documentation](https://www.getmcpads.com/docs) · [Explore the sources](https://www.getmcpads.com/tools)
+[Website](https://www.getmcpads.com) · [Watch the film](https://www.getmcpads.com/home/film/get-mcp-ads-brand-film-1080p.mp4) · [Documentation](https://www.getmcpads.com/docs) · [Explore the sources](https://www.getmcpads.com/tools)
 
-[![Watch getmcpads: performance analysis and creative comparison inside your AI assistant](https://www.getmcpads.com/home/film/poster-rich.webp)](https://www.getmcpads.com/home/film/get-mcp-ads-film-1080p.mp4)
+[![Watch getmcpads: every ad account in one conversation with your AI assistant](https://www.getmcpads.com/home/film/brand-film-poster-promise.webp)](https://www.getmcpads.com/home/film/get-mcp-ads-brand-film-1080p.mp4)
 
 </div>
 
