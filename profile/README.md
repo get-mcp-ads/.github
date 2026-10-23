@@ -38,15 +38,15 @@ Capabilities vary by source, account permissions, plan and AI client. See the [s
 Prefer to run a server with your own credentials?
 
 <!-- servers:start -->
-Our Apache 2.0 packages expose **683 tools: 376 reads and 307 optional writes** across 15 standalone catalogs.
+Our Apache 2.0 packages expose **697 tools: 378 reads and 319 optional writes** across 15 standalone catalogs.
 
 | Server | Read tools | Write tools | Latest release | Package |
 | --- | ---: | ---: | --- | --- |
-| [Meta Ads](https://github.com/get-mcp-ads/meta-ads-mcp-server) | 41 | 23 | [v2.0.1](https://github.com/get-mcp-ads/meta-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/meta-ads-mcp-server) |
-| [Google Ads](https://github.com/get-mcp-ads/google-ads-mcp-server) | 35 | 10 | [v2.0.1](https://github.com/get-mcp-ads/google-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/google-ads-mcp-server) |
-| [TikTok Ads](https://github.com/get-mcp-ads/tiktok-ads-mcp-server) | 35 | 29 | [v2.0.1](https://github.com/get-mcp-ads/tiktok-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/tiktok-ads-mcp-server) |
-| [Pinterest Ads](https://github.com/get-mcp-ads/pinterest-ads-mcp-server) | 28 | 25 | [v2.0.1](https://github.com/get-mcp-ads/pinterest-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/pinterest-ads-mcp-server) |
-| [X Ads](https://github.com/get-mcp-ads/x-ads-mcp-server) | 25 | 19 | [v1.0.1](https://github.com/get-mcp-ads/x-ads-mcp-server/releases/tag/v1.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/x-ads-mcp-server) |
+| [Meta Ads](https://github.com/get-mcp-ads/meta-ads-mcp-server) | 42 | 24 | [v2.0.1](https://github.com/get-mcp-ads/meta-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/meta-ads-mcp-server) |
+| [Google Ads](https://github.com/get-mcp-ads/google-ads-mcp-server) | 35 | 13 | [v2.0.1](https://github.com/get-mcp-ads/google-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/google-ads-mcp-server) |
+| [TikTok Ads](https://github.com/get-mcp-ads/tiktok-ads-mcp-server) | 35 | 30 | [v2.0.1](https://github.com/get-mcp-ads/tiktok-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/tiktok-ads-mcp-server) |
+| [Pinterest Ads](https://github.com/get-mcp-ads/pinterest-ads-mcp-server) | 29 | 30 | [v2.0.1](https://github.com/get-mcp-ads/pinterest-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/pinterest-ads-mcp-server) |
+| [X Ads](https://github.com/get-mcp-ads/x-ads-mcp-server) | 25 | 21 | [v1.0.1](https://github.com/get-mcp-ads/x-ads-mcp-server/releases/tag/v1.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/x-ads-mcp-server) |
 | [LinkedIn Ads](https://github.com/get-mcp-ads/linkedin-ads-mcp-server) | 18 | 15 | [v1.0.0](https://github.com/get-mcp-ads/linkedin-ads-mcp-server/releases/tag/v1.0.0) · October 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/linkedin-ads-mcp-server) |
 | [Microsoft Advertising](https://github.com/get-mcp-ads/bing-ads-mcp-server) | 20 | 23 | [v1.0.0](https://github.com/get-mcp-ads/bing-ads-mcp-server/releases/tag/v1.0.0) · October 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/bing-ads-mcp-server) |
 | [Amazon Ads](https://github.com/get-mcp-ads/amazon-ads-mcp-server) | 31 | 77 | [v1.0.0](https://github.com/get-mcp-ads/amazon-ads-mcp-server/releases/tag/v1.0.0) · October 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/amazon-ads-mcp-server) |
