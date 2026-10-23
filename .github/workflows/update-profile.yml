@@ -1,0 +1,37 @@
+# Keeps the organization profile current: the server table and the release
+# feed are rebuilt from every repository's releases and server-card.json.
+name: Update profile
+
+on:
+  schedule:
+    - cron: "23 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-profile
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - run: node scripts/update-profile.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: Commit the refreshed profile
+        run: |
+          if git diff --quiet; then
+            echo "The profile is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Refresh the server table and release feed"
+          git push
