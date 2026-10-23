@@ -35,25 +35,29 @@ Capabilities vary by source, account permissions, plan and AI client. See the [s
 
 ## Fifteen standalone open-source MCP servers
 
-Prefer to run a server with your own credentials? Our Apache 2.0 packages expose **697 tools: 378 reads and 319 optional writes** across fifteen standalone catalogs.
+Prefer to run a server with your own credentials?
 
-| Server | Read tools | Write tools | Release | Package |
+<!-- servers:start -->
+Our Apache 2.0 packages expose **683 tools: 376 reads and 307 optional writes** across 15 standalone catalogs.
+
+| Server | Read tools | Write tools | Latest release | Package |
 | --- | ---: | ---: | --- | --- |
-| [Meta Ads](https://github.com/get-mcp-ads/meta-ads-mcp-server) | 42 | 24 | [2.1.0](https://github.com/get-mcp-ads/meta-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/meta-ads-mcp-server) |
-| [Google Ads](https://github.com/get-mcp-ads/google-ads-mcp-server) | 35 | 13 | [2.1.0](https://github.com/get-mcp-ads/google-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/google-ads-mcp-server) |
-| [TikTok Ads](https://github.com/get-mcp-ads/tiktok-ads-mcp-server) | 35 | 30 | [2.1.0](https://github.com/get-mcp-ads/tiktok-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/tiktok-ads-mcp-server) |
-| [Pinterest Ads](https://github.com/get-mcp-ads/pinterest-ads-mcp-server) | 29 | 30 | [2.1.0](https://github.com/get-mcp-ads/pinterest-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/pinterest-ads-mcp-server) |
-| [X Ads](https://github.com/get-mcp-ads/x-ads-mcp-server) | 25 | 21 | [1.1.0](https://github.com/get-mcp-ads/x-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/x-ads-mcp-server) |
-| [LinkedIn Ads](https://github.com/get-mcp-ads/linkedin-ads-mcp-server) | 18 | 15 | [1.0.0](https://github.com/get-mcp-ads/linkedin-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/linkedin-ads-mcp-server) |
-| [Microsoft Advertising](https://github.com/get-mcp-ads/bing-ads-mcp-server) | 20 | 23 | [1.0.0](https://github.com/get-mcp-ads/bing-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/bing-ads-mcp-server) |
-| [Amazon Ads](https://github.com/get-mcp-ads/amazon-ads-mcp-server) | 31 | 77 | [1.0.0](https://github.com/get-mcp-ads/amazon-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/amazon-ads-mcp-server) |
-| [Reddit Ads](https://github.com/get-mcp-ads/reddit-ads-mcp-server) | 31 | 22 | [1.0.0](https://github.com/get-mcp-ads/reddit-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/reddit-ads-mcp-server) |
-| [Snapchat Ads](https://github.com/get-mcp-ads/snapchat-ads-mcp-server) | 21 | 25 | [1.0.0](https://github.com/get-mcp-ads/snapchat-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/snapchat-ads-mcp-server) |
-| [Apple Ads](https://github.com/get-mcp-ads/apple-ads-mcp-server) | 9 | 11 | [1.0.0](https://github.com/get-mcp-ads/apple-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/apple-ads-mcp-server) |
-| [ChatGPT Ads](https://github.com/get-mcp-ads/chatgpt-ads-mcp-server) | 30 | 28 | [1.0.0](https://github.com/get-mcp-ads/chatgpt-ads-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/chatgpt-ads-mcp-server) |
-| [Adjust](https://github.com/get-mcp-ads/adjust-mcp-server) | 5 | 0 | [1.0.0](https://github.com/get-mcp-ads/adjust-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/adjust-mcp-server) |
-| [Google Analytics 4](https://github.com/get-mcp-ads/google-analytics-mcp-server) | 27 | 0 | [2.1.0](https://github.com/get-mcp-ads/google-analytics-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/google-analytics-mcp-server) |
-| [Google Search Console](https://github.com/get-mcp-ads/google-search-console-mcp-server) | 20 | 0 | [2.1.0](https://github.com/get-mcp-ads/google-search-console-mcp-server/releases/latest) | [npm](https://www.npmjs.com/package/@getmcpads/google-search-console-mcp-server) |
+| [Meta Ads](https://github.com/get-mcp-ads/meta-ads-mcp-server) | 41 | 23 | [v2.0.1](https://github.com/get-mcp-ads/meta-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/meta-ads-mcp-server) |
+| [Google Ads](https://github.com/get-mcp-ads/google-ads-mcp-server) | 35 | 10 | [v2.0.1](https://github.com/get-mcp-ads/google-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/google-ads-mcp-server) |
+| [TikTok Ads](https://github.com/get-mcp-ads/tiktok-ads-mcp-server) | 35 | 29 | [v2.0.1](https://github.com/get-mcp-ads/tiktok-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/tiktok-ads-mcp-server) |
+| [Pinterest Ads](https://github.com/get-mcp-ads/pinterest-ads-mcp-server) | 28 | 25 | [v2.0.1](https://github.com/get-mcp-ads/pinterest-ads-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/pinterest-ads-mcp-server) |
+| [X Ads](https://github.com/get-mcp-ads/x-ads-mcp-server) | 25 | 19 | [v1.0.1](https://github.com/get-mcp-ads/x-ads-mcp-server/releases/tag/v1.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/x-ads-mcp-server) |
+| [LinkedIn Ads](https://github.com/get-mcp-ads/linkedin-ads-mcp-server) | 18 | 15 | [v1.0.0](https://github.com/get-mcp-ads/linkedin-ads-mcp-server/releases/tag/v1.0.0) · October 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/linkedin-ads-mcp-server) |
+| [Microsoft Advertising](https://github.com/get-mcp-ads/bing-ads-mcp-server) | 20 | 23 | [v1.0.0](https://github.com/get-mcp-ads/bing-ads-mcp-server/releases/tag/v1.0.0) · October 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/bing-ads-mcp-server) |
+| [Amazon Ads](https://github.com/get-mcp-ads/amazon-ads-mcp-server) | 31 | 77 | [v1.0.0](https://github.com/get-mcp-ads/amazon-ads-mcp-server/releases/tag/v1.0.0) · October 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/amazon-ads-mcp-server) |
+| [Reddit Ads](https://github.com/get-mcp-ads/reddit-ads-mcp-server) | 31 | 22 | [v1.0.0](https://github.com/get-mcp-ads/reddit-ads-mcp-server/releases/tag/v1.0.0) · October 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/reddit-ads-mcp-server) |
+| [Snapchat Ads](https://github.com/get-mcp-ads/snapchat-ads-mcp-server) | 21 | 25 | [v1.0.0](https://github.com/get-mcp-ads/snapchat-ads-mcp-server/releases/tag/v1.0.0) · October 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/snapchat-ads-mcp-server) |
+| [Apple Ads](https://github.com/get-mcp-ads/apple-ads-mcp-server) | 9 | 11 | [v1.0.0](https://github.com/get-mcp-ads/apple-ads-mcp-server/releases/tag/v1.0.0) · October 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/apple-ads-mcp-server) |
+| [ChatGPT Ads](https://github.com/get-mcp-ads/chatgpt-ads-mcp-server) | 30 | 28 | [v1.0.0](https://github.com/get-mcp-ads/chatgpt-ads-mcp-server/releases/tag/v1.0.0) · October 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/chatgpt-ads-mcp-server) |
+| [Adjust](https://github.com/get-mcp-ads/adjust-mcp-server) | 5 | 0 | [v1.0.0](https://github.com/get-mcp-ads/adjust-mcp-server/releases/tag/v1.0.0) · October 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/adjust-mcp-server) |
+| [Google Analytics 4](https://github.com/get-mcp-ads/google-analytics-mcp-server) | 27 | 0 | [v2.0.1](https://github.com/get-mcp-ads/google-analytics-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/google-analytics-mcp-server) |
+| [Google Search Console](https://github.com/get-mcp-ads/google-search-console-mcp-server) | 20 | 0 | [v2.0.1](https://github.com/get-mcp-ads/google-search-console-mcp-server/releases/tag/v2.0.1) · September 23, 2026 | [npm](https://www.npmjs.com/package/@getmcpads/google-search-console-mcp-server) |
+<!-- servers:end -->
 
 Each repository includes setup instructions, tool schemas, a changelog, versioned releases and CI on Node 22, 24 and 26. Requires **Node.js 22.23.4, 24.22.1, 26.12.1 or a newer release of those lines**, which carry the October 2026 security fixes, and a compatible stdio MCP client.
 
@@ -65,14 +69,28 @@ Advertising write tools are disabled by default. When enabled, they preview a ch
 
 The hosted product adds its own interface and workflows, including creative galleries, scheduled exports, cloud media imports and shared workspaces. These are separate from the standalone packages listed above.
 
-## What is new
+## Latest releases
 
-- **Eight new servers:** LinkedIn Ads, Microsoft Advertising, Amazon Ads, Reddit Ads, Snapchat Ads, Apple Ads, ChatGPT Ads and Adjust.
-- **Seven servers updated:** Meta, Google Ads, TikTok, Pinterest, GA4 and Search Console at 2.1.0, X Ads at 1.1.0. New rename tools, Pinterest video upload, Google Ads API v26 with Search Lift metrics, and a TikTok sandbox routing fix.
-- **Security:** MCP SDK 1.32.1, a runtime warning on Node.js releases without the October 2026 fixes, dependency audits in CI and weekly Dependabot updates.
-- **Releases from tags:** each version tag publishes npm with provenance, the GitHub release and the MCP Registry entry.
+Every release of every server, newest first. This page refreshes itself from the repositories every few hours.
 
-Open the release links above for the changes in each package. The 697-tool total applies to the fifteen standalone catalogs, not the hosted product.
+<!-- releases:start -->
+| Date | Server | Release |
+| --- | --- | --- |
+| October 23, 2026 | [ChatGPT Ads](https://github.com/get-mcp-ads/chatgpt-ads-mcp-server) | [v1.0.0: First standalone release](https://github.com/get-mcp-ads/chatgpt-ads-mcp-server/releases/tag/v1.0.0) |
+| October 23, 2026 | [Amazon Ads](https://github.com/get-mcp-ads/amazon-ads-mcp-server) | [v1.0.0: First standalone release](https://github.com/get-mcp-ads/amazon-ads-mcp-server/releases/tag/v1.0.0) |
+| October 23, 2026 | [LinkedIn Ads](https://github.com/get-mcp-ads/linkedin-ads-mcp-server) | [v1.0.0: First standalone release](https://github.com/get-mcp-ads/linkedin-ads-mcp-server/releases/tag/v1.0.0) |
+| October 23, 2026 | [Microsoft Advertising](https://github.com/get-mcp-ads/bing-ads-mcp-server) | [v1.0.0: First standalone release](https://github.com/get-mcp-ads/bing-ads-mcp-server/releases/tag/v1.0.0) |
+| October 23, 2026 | [Snapchat Ads](https://github.com/get-mcp-ads/snapchat-ads-mcp-server) | [v1.0.0: First standalone release](https://github.com/get-mcp-ads/snapchat-ads-mcp-server/releases/tag/v1.0.0) |
+| October 23, 2026 | [Reddit Ads](https://github.com/get-mcp-ads/reddit-ads-mcp-server) | [v1.0.0: First standalone release](https://github.com/get-mcp-ads/reddit-ads-mcp-server/releases/tag/v1.0.0) |
+| October 23, 2026 | [Apple Ads](https://github.com/get-mcp-ads/apple-ads-mcp-server) | [v1.0.0: First standalone release](https://github.com/get-mcp-ads/apple-ads-mcp-server/releases/tag/v1.0.0) |
+| October 23, 2026 | [Adjust](https://github.com/get-mcp-ads/adjust-mcp-server) | [v1.0.0: First standalone release](https://github.com/get-mcp-ads/adjust-mcp-server/releases/tag/v1.0.0) |
+| September 23, 2026 | [X Ads](https://github.com/get-mcp-ads/x-ads-mcp-server) | [v1.0.1: Public repository restored](https://github.com/get-mcp-ads/x-ads-mcp-server/releases/tag/v1.0.1) |
+| September 23, 2026 | [TikTok Ads](https://github.com/get-mcp-ads/tiktok-ads-mcp-server) | [v2.0.1: Public repository restored](https://github.com/get-mcp-ads/tiktok-ads-mcp-server/releases/tag/v2.0.1) |
+| September 23, 2026 | [Pinterest Ads](https://github.com/get-mcp-ads/pinterest-ads-mcp-server) | [v2.0.1: Public repository restored](https://github.com/get-mcp-ads/pinterest-ads-mcp-server/releases/tag/v2.0.1) |
+| September 23, 2026 | [Meta Ads](https://github.com/get-mcp-ads/meta-ads-mcp-server) | [v2.0.1: Public repository restored](https://github.com/get-mcp-ads/meta-ads-mcp-server/releases/tag/v2.0.1) |
+<!-- releases:end -->
+
+The tool totals above apply to the standalone catalogs, not the hosted product.
 
 ## Maintained by Emmanuel
 
